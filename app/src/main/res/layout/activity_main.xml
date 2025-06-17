@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/ui_1">
+
+    <Button
+        android:id="@+id/sqare"
+        android:layout_width="125dp"
+        android:layout_height="114dp"
+        android:layout_marginTop="196dp"
+        android:background="@drawable/sqare"
+        android:fontFamily="serif"
+        android:text="SQARE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.139"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/circle"
+        android:layout_width="147dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="184dp"
+        android:background="@drawable/circle"
+        android:fontFamily="serif"
+        android:text="CIRCLE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.795"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rectangle"
+        android:layout_width="151dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="364dp"
+        android:background="@drawable/rectangle"
+        android:fontFamily="serif"
+        android:text="RECTANGLE"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.153"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/rhombus"
+        android:layout_width="136dp"
+        android:layout_height="109dp"
+        android:layout_marginTop="344dp"
+        android:background="@drawable/rhombus"
+        android:fontFamily="serif"
+        android:text="RHOMBUS"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.803"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
